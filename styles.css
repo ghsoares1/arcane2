@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto;
+}
+
+.image-container {
+  display: inline-block;
+  position: relative; 
+}
+
+.image {
+  width: 200px; 
+  height: auto;
+}
+
+.image-container img:nth-child(2) {
+  display: none;
+}
+
+
+.image-container:hover img:nth-child(2) {
+  display: block;
+}
+.image-container {
+  display: inline-block;
+  margin-right: -220px; 
+  position: relative; 
+}
+.image-container {
+  display: inline-block;
+  margin-right: 20px; 
+  position: relative; 
+  overflow: hidden; 
+}
